@@ -1,3 +1,2 @@
 ## Coding-Interview-Questions
-#Here you can find all the important questions that could be ask in big tech companies
-For each and every question: I will be adding naive to most optimal approach
+"This resource contains a collection of important interview questions that are commonly asked by big tech companies. For each question, a range of solutions is provided, starting from naive or simple approaches and progressing to more optimal solutions."

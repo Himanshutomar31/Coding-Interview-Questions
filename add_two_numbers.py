@@ -15,3 +15,20 @@ def two_number_sum(array, target_sum):
             return [complement, num]
         complement_set.add(num)
     return []
+
+#time O(NlogN), space 0(1)
+def two_number_sum(array, target_sum):
+    array.sort()
+    left = 0
+    right = len(array) - 1
+    
+    while left < right:
+        current_sum = array[left] + array[right]
+        if current_sum == target_sum:
+            return [array[left], array[right]]
+        elif current_sum < target_sum:
+            left += 1
+        else:
+            right -= 1
+    
+    return []
